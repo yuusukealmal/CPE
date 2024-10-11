@@ -19,6 +19,7 @@ bool compare(int a, int b){
 
     if (isodda != isoddb){
         if (isodda){return true;}
+        else {return false;}
     }
 
     return isodda ? a > b : a < b;
@@ -33,9 +34,7 @@ int main(){
             break;
         }
         for (int i = 0; i < N; i++){
-            int num;
-            cin >> num;
-            nums[i] = num;
+            cin >> nums[i];
         }
         sort(nums.begin(), nums.end(), compare);
 		
