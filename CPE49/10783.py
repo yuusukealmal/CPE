@@ -1,3 +1,5 @@
+# https://onlinejudge.org/external/107/10783.pdf
+
 lines = input()
 for i in range(int(lines)):
     min, max = int(input()), int(input())
