@@ -1,4 +1,4 @@
-# https://onlinejudge.org/external/110/11063.pdfB2-Sequence
+# https://onlinejudge.org/external/110/11063.pdf
 
 s, index = "Case #{}: It is {}a B2-Sequence.", 1
 while 1:
